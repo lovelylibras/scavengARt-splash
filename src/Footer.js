@@ -1,10 +1,12 @@
 import React from 'react';
+import { Navbar, Container, Row, Col } from 'react-bootstrap';
+import { HashLink as Link } from 'react-router-hash-link';
 
 function Footer() {
   return (
-    <div className="section">
-      <h1>Footer</h1>
-    </div>
+    <Navbar sticky="bottom" id="footer">
+      <p>© 2019</p>
+    </Navbar>
   );
 }
 

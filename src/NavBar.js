@@ -5,17 +5,16 @@ function NavBar() {
   return (
     <div className="nav">
       <div id="logo">
-        <h1>ScavengARt</h1>
+        <Link smooth to="#home">
+          <img id="logo" src="scavengARt.png" />
+        </Link>
       </div>
       <div>
-        <Link smooth to="#home" className="links">
-          Home
-        </Link>
-        <Link smooth to="about-scavengart" className="links">
+        <Link smooth to="#about-scavengart" className="links">
           About ScavengARt
         </Link>
         <Link smooth to="#techstack" className="links">
-          TechStack
+          Tech Stack
         </Link>
         <Link smooth to="#screencast" className="links">
           Screencast

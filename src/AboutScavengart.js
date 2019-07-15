@@ -1,9 +1,11 @@
 import React from 'react';
+import { Container, Row, Col, Button } from 'react-bootstrap';
 
 function AboutScavengArt() {
   return (
-    <div className="section" id="about-scavengart">
+    <Container className="section" id="about-scavengart">
       <h1>About ScavengARt</h1>
+      <br />
       <p>
         Our app is an AR-based scavenger hunt that guides users through New York
         art museums, prompting them to follow a series of clues to discover
@@ -13,7 +15,14 @@ function AboutScavengArt() {
         and the app displays a 3D trophy on the artwork to indicate a successful
         guess.
       </p>
-    </div>
+      <Button
+        size="lg"
+        className="button"
+        href="https://github.com/lovelylibras"
+      >
+        Visit Our Github
+      </Button>
+    </Container>
   );
 }
 
