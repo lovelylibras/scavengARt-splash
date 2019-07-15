@@ -1,4 +1,5 @@
 import React from 'react';
+import AboutScavengArt from './AboutScavengart';
 import AboutUs from './AboutUs';
 import Footer from './Footer';
 import Home from './Home';
@@ -12,6 +13,7 @@ function App() {
       <NavBar />
       <div id="body">
         <Home />
+        <AboutScavengArt />
         <TechStack />
         <Screencast />
         <AboutUs />

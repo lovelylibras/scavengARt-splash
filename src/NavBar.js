@@ -11,6 +11,9 @@ function NavBar() {
         <Link smooth to="#home" className="links">
           Home
         </Link>
+        <Link smooth to="about-scavengart" className="links">
+          About ScavengARt
+        </Link>
         <Link smooth to="#techstack" className="links">
           TechStack
         </Link>
