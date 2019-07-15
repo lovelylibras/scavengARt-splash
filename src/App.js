@@ -1,10 +1,22 @@
 import React from 'react';
-import './App.css';
+import AboutUs from './AboutUs';
+import Footer from './Footer';
+import Home from './Home';
+import NavBar from './NavBar';
+import Screencast from './Screencast';
+import TechStack from './TechStack';
 
 function App() {
   return (
     <div className="App">
-      <h1>ScavengARt</h1>
+      <NavBar />
+      <div id="body">
+        <Home />
+        <TechStack />
+        <Screencast />
+        <AboutUs />
+      </div>
+      <Footer />
     </div>
   );
 }

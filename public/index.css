@@ -1,0 +1,34 @@
+.App {
+  text-align: center;
+}
+
+.section {
+  padding-top: 80px;
+  height: 100vh;
+  width: 100vw;
+  border: 1px black solid;
+}
+
+.nav {
+  height: 80px;
+  width: 100vw;
+  position: fixed;
+  top: 0;
+  z-index: 1;
+  clear: both;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#logo {
+  padding: 10px;
+}
+
+#body {
+  margin-top: 80px;
+}
+
+.links {
+  padding: 20px;
+}
