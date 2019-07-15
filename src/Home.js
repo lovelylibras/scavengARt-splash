@@ -1,7 +1,12 @@
 import React from 'react';
+import { Image } from 'react-bootstrap';
 
 function Home() {
-  return <div className="section" id="home" />;
+  return (
+    <div id="home">
+      <Image fluid src="splashPage.jpg" />
+    </div>
+  );
 }
 
 export default Home;

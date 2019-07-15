@@ -6,11 +6,10 @@
   padding-top: 80px;
   height: 100vh;
   width: 100vw;
-  border: 1px black solid;
 }
 
 .nav {
-  background-color: #710000;
+  background-color: white;
   height: 80px;
   width: 100vw;
   position: fixed;
@@ -20,6 +19,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  opacity: 0.8;
 }
 
 #logo {
@@ -32,10 +32,84 @@
 
 .links {
   padding: 20px;
+  color: inherit;
+}
+.links:hover {
+  text-decoration: none;
+  color: #ff9682;
 }
 
-#home {
-  background-image: url('splashPage.jpg');
-  background-size: 100vw 100vh;
-  background-repeat: no-repeat;
+#techstack {
+  background-color: lightgrey;
+  padding-top: 100px;
+}
+
+.img-png {
+  height: 100px;
+  width: 100px;
+}
+.button {
+  margin-top: 75px;
+  margin-bottom: 100px;
+  background-color: #770000 !important;
+  border: 2px #770000 !important;
+  /* height: 50px;
+  width: 200px; */
+}
+
+.button:hover,
+.button:focus,
+.button:active {
+  background-color: #ff9682 !important;
+}
+
+.half-rule {
+  width: 100px;
+  color: white;
+}
+#video {
+  margin-top: 100px;
+}
+#screencast {
+  background-color: black;
+  color: white;
+}
+#about-scavengart {
+  height: 50vh;
+}
+.title {
+  margin-bottom: 50px;
+}
+#image-box {
+  width: 75vw;
+}
+.button-link {
+  color: white;
+}
+.button-link:hover {
+  text-decoration: none;
+  color: white;
+}
+.img-linkedin {
+  width: 50px;
+  height: 50px;
+  margin-right: 5px;
+}
+.img-git {
+  width: 43px;
+  height: 43px;
+  margin-left: 5px;
+}
+#logo {
+  height: 100px;
+}
+.text-row {
+  margin-bottom: 30px;
+}
+#footer {
+  width: 100vw;
+  height: 100px;
+  background-color: #770000;
+  margin-top: 200px;
+  justify-content: center;
 }
