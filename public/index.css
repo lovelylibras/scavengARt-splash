@@ -10,6 +10,7 @@
 }
 
 .nav {
+  background-color: #710000;
   height: 80px;
   width: 100vw;
   position: fixed;
@@ -31,4 +32,10 @@
 
 .links {
   padding: 20px;
+}
+
+#home {
+  background-image: url('splashPage.jpg');
+  background-size: 100vw 100vh;
+  background-repeat: no-repeat;
 }
