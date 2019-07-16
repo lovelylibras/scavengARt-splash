@@ -4,7 +4,7 @@ import { HashLink as Link } from 'react-router-hash-link';
 
 function Footer() {
   return (
-    <Navbar sticky="bottom" id="footer">
+    <Navbar className="app-footer" sticky="bottom" id="footer">
       <p>© 2019</p>
     </Navbar>
   );

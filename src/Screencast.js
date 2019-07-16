@@ -5,8 +5,8 @@ function Screencast() {
     <div className="section" id="screencast">
       <h1>Screencast</h1>
       <iframe
-        width="888"
-        height="500"
+        width="710.4"
+        height="400"
         src="https://www.youtube.com/embed/c7Y94yohNec"
         frameborder="0"
         allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"

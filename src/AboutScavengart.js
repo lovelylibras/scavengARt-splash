@@ -6,6 +6,7 @@ function AboutScavengArt() {
     <Container className="section" id="about-scavengart">
       <h1>About ScavengARt</h1>
       <br />
+      <br />
       <p>
         Our app is an AR-based scavenger hunt that guides users through New York
         art museums, prompting them to follow a series of clues to discover

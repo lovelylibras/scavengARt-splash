@@ -3,31 +3,22 @@
 }
 
 .section {
-  padding-top: 80px;
-  height: 100vh;
+  padding-top: 120px;
+  height: 100%;
   width: 100vw;
+}
+#home {
+  padding-top: 90px;
 }
 
 .nav {
   background-color: white;
-  height: 80px;
+  max-height: 100%;
   width: 100vw;
   position: fixed;
   top: 0;
-  z-index: 1;
-  clear: both;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  opacity: 0.8;
-}
-
-#logo {
-  padding: 10px;
-}
-
-#body {
-  margin-top: 80px;
+  opacity: 0.8 !important;
+  text-align: right !important;
 }
 
 .links {
@@ -41,7 +32,6 @@
 
 #techstack {
   background-color: lightgrey;
-  padding-top: 100px;
 }
 
 .img-png {
@@ -53,8 +43,6 @@
   margin-bottom: 100px;
   background-color: #770000 !important;
   border: 2px #770000 !important;
-  /* height: 50px;
-  width: 200px; */
 }
 
 .button:hover,
@@ -68,18 +56,14 @@
   color: white;
 }
 #video {
-  margin-top: 100px;
+  margin-top: 60px;
+  margin-bottom: 100px;
 }
 #screencast {
   background-color: black;
   color: white;
 }
-#about-scavengart {
-  height: 50vh;
-}
-.title {
-  margin-bottom: 50px;
-}
+
 #image-box {
   width: 75vw;
 }
@@ -101,15 +85,17 @@
   margin-left: 5px;
 }
 #logo {
-  height: 100px;
+  height: 75px;
 }
 .text-row {
-  margin-bottom: 30px;
+  margin-bottom: 50px;
 }
 #footer {
-  width: 100vw;
-  height: 100px;
-  background-color: #770000;
-  margin-top: 200px;
+  width: 100%;
+  height: 75px;
+  background-color: black;
+  color: white;
+  margin-top: 100px;
   justify-content: center;
+  bottom: 0;
 }
